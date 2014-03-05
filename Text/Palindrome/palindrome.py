@@ -9,7 +9,7 @@ def is_palindrome(string):
     """Check if the string is a palindrome.
 
     Keyword arguments:
-    string -- The string to check if is palindrome
+        string -- The string to check if is palindrome
 
     Returns:
         A boolean
@@ -30,9 +30,9 @@ def is_palindrome(string):
 if __name__ == '__main__':
 
     # Prompt to the user for the string
-    word_to_check = raw_input("Please, ingress a word to check if is palindrome: ")
+    word_to_check = raw_input("Please, ingress a word o sentence to check if is palindrome: ")
 
     if is_palindrome(word_to_check):
-        print "The word '%s' is palindrome" % (word_to_check,)
+        print "The word or sentence '%s' is palindrome" % (word_to_check,)
     else:
-        print "The word '%s' is not a palindrome" % (word_to_check,)
+        print "The word or sentence '%s' is not a palindrome" % (word_to_check,)
